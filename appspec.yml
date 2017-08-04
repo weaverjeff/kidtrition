@@ -1,0 +1,8 @@
+# For help completing this file, see the "AppSpec File Reference" in the  
+#   "AWS CodeDeploy User Guide" at
+#   http://docs.aws.amazon.com/codedeploy/latest/userguide/app-spec-ref.html
+version: 0.1
+os: linux 
+files:
+  - source: source
+    destination: apps/kidtrition/api
